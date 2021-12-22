@@ -7,9 +7,9 @@ export class PostgressConfiguration implements TypeOrmOptionsFactory{
       host:'localhost',
       type:'postgres',
       port:5432,
-      username:'postgres',
-      password:'123456',
-      database:'ip2location',
+      username:'saniar_ip',
+      password:'a3Z2ScjhyOtz',
+      database:'saniar_ip2location',
       entities:[IpToLocationEntity],
       synchronize:false
     }
